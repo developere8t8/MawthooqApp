@@ -1,0 +1,14 @@
+
+#mobile number otp generation
+POST https://buyerseller.3bytesolutions.com/api/register?mobile_no=+923180684510&language=en
+###
+
+#otp verification
+POST https://buyerseller.3bytesolutions.com/api/verify_otp?mobile=+923226964464&otp=3591&language=en HTTP/1.1
+ ###
+
+ #Agreement
+GET https://buyerseller.3bytesolutions.com/api/agreement_text
+ ###
+
+ 
